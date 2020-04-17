@@ -26,7 +26,7 @@ Given this information, the agent has to learn how to best select actions. Four 
 **- 2 - turn left.**
 **- 3 - turn right.**
 
-The task is episodic, and **in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.**
+The task is episodic, and **in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes. However, I have considered 14 as the cut-off for solving the environment.**
 
 
 ## Agent Implementation
@@ -125,7 +125,7 @@ Given the chosen architecture and parameters, our results are :
 
 ![Score evolution during the training](images/score_plot.png)
 
-**These results meets the project's expectation as the agent is able to receive an average reward (over 100 episodes) of at least +13, and in just 900 episodes, and getting a maximum average score of 15.20** (In comparison, according to Udacity's solution code for the project, their agent was benchmarked to be able to solve the project in fewer than 1800 episodes, the goal has been achieved in half the number of episodes.)
+**These results meets the project's expectation as the agent is able to receive an average reward (over 100 episodes) of at least +14, in around 1000 episodes, and getting a maximum average score of 14.65 in only 1500 episodes** (In comparison, according to Udacity's solution code for the project, their agent was benchmarked to be able to solve the project (which was to get average score of at least +13) in fewer than 1800 episodes, the goal has been achieved in half the number of episodes).
 
 ### Ideas for future work
 
